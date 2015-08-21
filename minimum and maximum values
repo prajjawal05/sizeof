@@ -1,0 +1,17 @@
+#include<stdio.h>
+#include<stdlib.h>
+#include<float.h>
+#include<limits.h>
+void main()
+{
+int x,y;
+float c,v;
+x=INT_MAX;
+y=INT_MIN;
+c=FLT_MAX;
+v=FLT_MIN;
+printf("mAXIMUM VALUE OF INTEGER %d",x);
+printf("minimum VALUE OF INTEGER %d",y);
+printf("mAXIMUM VALUE OF float %d",c);
+printf("minimum VALUE OF float %d",v);
+}
